@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+}
+
+img {
+  margin-top: 10%;
+}
+
+input {
+  width: 570px;
+  height: 25px;
+  margin: 20px;
+  padding: 8px;
+  border: 0.5px solid grey;
+  border-radius: 25px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0.6rem;
+}
+
+.nav-tl {
+  padding-top: 1rem;
+}
+
+.btn1 {
+  height: 40px;
+  width: auto;
+  color: #646464;
+  background: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  margin: 4px;
+}
+.btn2 {
+  height: 40px;
+  width: auto;
+  color: #646464;
+  background: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+.btn1:hover,
+.btn2:hover {
+  color: #373737;
+  background: #d3d3d3;
+  border: 0.5px solid lightgrey;
+}
