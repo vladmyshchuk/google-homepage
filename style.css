@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   text-align: center;
 }
@@ -15,14 +20,39 @@ input {
   border-radius: 25px;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-  padding: 0.6rem;
+ul {
+  list-style-type: none;
+  overflow: hidden;
 }
 
-.nav-tl {
-  padding-top: 1rem;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #646464;
+}
+
+ul.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #646464;
+}
+
+ul.nav-top li.right {
+  float: right;
+}
+
+ul.footer li.right {
+  float: right;
 }
 
 .btn1 {
